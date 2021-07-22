@@ -32,28 +32,6 @@ Functionalities of this project include:
 
 
 
-YTHON LIBRARIES
- In JARVIS following python libraries were used:
-3.3.1. pyttsx3: It is a python library which converts text to speech.
-3.3.2. SpeechRecognition: It is a python module which converts speech to
-text.
-3.3.3. pywhatkit: It is python library to send WhatsApp message at a
-particular time with some additional features.
-3.3.4. Datetime: This library provides us the actual date and time.
-3.3.5. Wikipedia: It is a python module for searching anything on
-Wikipedia.
-3.3.6. Smtplib: Simple mail transfer protocol that allows us to send mails
-and to route mails between mail servers.
-3.3.7. pyPDF2: It is a python module which can read, split, merge any PDF.
-3.3.8. Pyjokes: It is a python libararies which contains lots of interesting
-jokes in it.
-3.3.9. Webbrowser: It provides interface for displaying web-based
-documents to users.
-7
-3.3.10. Pyautogui: It is a python libraries for graphical user interface.
-3.3.11. os: It represents Operating System related functionality.
-3.3.12. sys: It allows operating on the interpreter as it provides access to the
-variables and functions that usually interact strongly with the interpreter. 
 
 
 
