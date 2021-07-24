@@ -32,14 +32,14 @@ Functionalities of this project include:
 
 
 
- Defining Speak Function
+ **Defining Speak Function**
 The first and foremost thing for an A.I. assistant is that it should be able to speak. To make our J.A.R.V.I.S. talk, we will make a function called speak(). This function will take audio as an argument, and then it will pronounce it.
 
 def speak(audio):
        pass      #For now, we will write the conditions later.
 Now, the next thing we need is audio. We must supply audio so that we can pronounce it using the speak() function we made. We are going to install a module called pyttsx3.
-
-What is pyttsx3?
+**
+What is pyttsx3?**
 A python library that will help us to convert text to speech. In short, it is a text-to-speech library.
 It works offline, and it is compatible with Python 2 as well as Python 3.
 Installation:
@@ -92,7 +92,7 @@ Code:
 
 if __name__=="__main__" :
 
-speak("Code With Harry")
+speak("Hey")
 
  
 Whatever you will write inside this speak() function will be converted into speech. Congratulations! With this, our J.A.R.V.I.S. has its own voice, and it is ready to speak.
@@ -167,7 +167,7 @@ pip install wikipedia
 if __name__ == "__main__":
     wishMe()
     while True:
-    # if 1:
+    
         query = takeCommand().lower() #Converting user query into lower case
 
         # Logic for executing tasks based on query
@@ -267,12 +267,12 @@ Calling sendEmail() function inside the main() function:
             try:
                 speak("What should I say?")
                 content = takeCommand()
-                to = "harryyourEmail@gmail.com"    
+                to = "rakeshEmail@gmail.com"    
                 sendEmail(to, content)
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend harry bhai. I am not able to send this email")    
+                speak("Sorry my friend b. I am not able to send this email")    
 We are using the try and except block to handle any possible error while sending emails.
 
 
