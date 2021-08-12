@@ -6,15 +6,7 @@ from bs4 import BeautifulSoup
 import pywhatkit as kit#This function can be used to search and play a particular video on YouTube by using just the keyword, like "Shape of You song"
 import time
 import wikipedia
-from googletrans import Translator
 import os
-import pyautogui
-from tkinter import Label
-from tkinter import Entry
-from tkinter import Button
-import requests
-from tkinter import Tk
-from tkinter import StringVar
 from pytube import YouTube
 import datetime
 from playsound import playsound
@@ -22,10 +14,8 @@ import keyboard
 import pyjokes
 import random
 import pyperclip
-from urllib.request import urlopen
 import cv2
-import numpy as np
-from PIL import Image #pillow package
+
 
 
 
